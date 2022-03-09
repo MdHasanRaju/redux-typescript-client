@@ -18,7 +18,7 @@ const ProductCategory = ({ title, query }: IProps) => {
 
     return (
         <>
-            <Typography variant="h2" sx={{ my: 5 }} color="primary">
+            <Typography style={{textAlign:"center"}} variant="h2" sx={{ my: 5, }} color="primary">
                 {title}
             </Typography>
             <Grid
